@@ -1,11 +1,18 @@
-.body{
-  font-family:"Arial","Meiryo","Josefin Sans","sans-serif";
+body{
+  font-family:"Arial","Meiryo","sans-serif";
+  text-align: center;
+}
+
+h1{
+  font-family: "josefin Sans";
+  letter-spacing: 1.2em;
+  text-shadow: 2px 2px 3px gray;
+  border-bottom: solid 3px rgb(115,115,114);
+  font-size: 2rem;
 }
 
   html{font-size: 20px;
   }
-  h1{font-size: 2rem;
-}
 
 .colored-char{
   color: skyblue;
@@ -15,24 +22,12 @@
 }
 
 .pink-text{
-  color: pink;
+  color:rgb(255,192,203) ;
 }
 .skyblue-text{
   color: skyblue;
 }
 
-body{
-  text-align: center;
-}
-h1{
-  letter-spacing: 1.2em;
-}
-h1{
-  text-shadow: 2px 2px 3px gray;
-}
-h1{
-  border-bottom: solid rgb(115,115,114);
-}
 #basic p {
   font-weight: bold;
 }
