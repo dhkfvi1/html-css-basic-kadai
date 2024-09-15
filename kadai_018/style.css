@@ -1,13 +1,15 @@
 #top{
   width: 800px;
   background-color: #dcc9f4;
- padding: 20px;
+ padding: 20px 0;
  text-align: center;
+ margin: auto;
 }
 .top-child{
   width: 20%;
   background-color: #ffd9df;
-  display: inline;
+  display: inline-block;
+  margin: auto;
 }
 #middle{
   width: 800px;
@@ -16,6 +18,7 @@
   background-color: #ffd9df;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin: 20px auto;
 }
 #middle-child01,#middle-child02,#middle-child03{
   width: 200px;
@@ -42,6 +45,7 @@
   height: 300px;
   text-align: center;
   background-color: #87ceeb;
+  margin: auto;
 }
 #bottom-child01,#bottom-child02,#bottom-child03{
   width: 400px;
